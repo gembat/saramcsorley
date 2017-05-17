@@ -1,637 +1,646 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Sara McSorley - Graphic Design & Illustration</title>
+    <title>Sara McSorley | Graphic Design & Illustration</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <meta name="keywords" content="">
 
-    <!-- Fonts -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500|Roboto:400,700,300,100" rel='stylesheet' type='text/css'>
 
-    <!-- Custom Theme CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <!-- Bootstrap and Font Awesome css -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Theme stylesheet -->
+    <link href="css/style.red.css" rel="stylesheet" id="theme-stylesheet">
+
+    <!-- Custom stylesheet - for your changes -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- owl carousel css -->
+
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+
+    <!-- CSS Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Mordernizr -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Responsivity for older IE -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+<body data-spy="scroll" data-target="#navigation" data-offset="120">
 
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <!-- *** NAVBAR ***
+_________________________________________________________ -->
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
         <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">
-                      <span class="light">Sara</span> McSorley
-                </a>
+                <a class="navbar-brand scrollTo" href="#intro">Sara McSorley</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
+            <div class="navbar-collapse collapse" id="navigation">
 
-                    <li class="page-scroll">
-                        <a href="#shop">Shop</a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#intro">Intro</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                    <li><a href="#about">About</a>
+                    </li>
+                    <li><a href="#mywork">My Work</a>
+                    </li>
+                    <li><a href="#skills">My Skills</a>
+                    </li>
+                    <li><a href="#footer">Contact</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+            <!--/.nav-collapse -->
 
-    <section class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Hi, my name is Sara.</h1>
-                        <p class="intro-text">I'm a graphic designer & illustrator living in Seattle, Washington.</p>
-                        <div class="page-scroll">
-                            <a href="#about" class="btn btn-circle">
-                                <i class="fa fa-angle-double-down animated"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-          <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <br /><br /><br /><br />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/roevwade.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/social0.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/info0.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/holiday0.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/lunette0.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/standwithpp.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tc.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/fcso0.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/aclr.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/firebase1.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/books.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tats.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Me</h2>
-                <p>I design. I make graphics for web and print, branding, even a little bit of illustration. I'm fully fluent in the Adobe Creative Suite and I know enough HTML/CSS to make a design into a website. I've produced and edited videos and can create motion graphics in After Effects.</p>
-
-                <p>I have a passion for visual communication. To me, the most beautiful design is one that is functional. That's why I became a graphic designer--I'm into making art that clearly communicates its intended message. I can make art out of anything from a company newsletter to a landing page.</p>
-
-                <p>While my illustration skills help in my day-to-day job with wireframing and storyboarding, I'm always happy to put them to work for freelance projects. I've drawn e-book covers, posters, and even children's books. I've also participated in a few indie game jams with local developers where I learned to create and animate sprites for 2D games. When I'm not working on a project, I'm honing my trivia skills so I can be on Jeopardy.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="shop" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Shop</h2>
-                <p>My Etsy shop is currently closed. To find out when I'll be at a convention near you, please visit me on <a href="http://saramcsorley.tumblr.com/">tumblr</a>.</p>
-
-                <div class="row">
-                <div class="col-sm-4 hidden-xs">
-                <img src="img/shop/1.jpg" class="img-circle">
-                </div>
-                <div class="col-sm-4">
-                <img src="img/shop/2.jpg" class="img-circle">
-                </div>
-                <div class="col-sm-4 hidden-xs">
-                <img src="img/shop/3.jpg" class="img-circle">
-                </div>
-                </div>
-
-                <br /><br />
-
-                    <ul class="list-inline banner-social-buttons">
-                    <li><a href="http://saramcsorley.tumblr.com" class="btn btn-default btn-lg"><span class="network-name">Sara McSorley @ Tumblr</span></a>
-                    </li>
-
-                <!--<ul class="list-inline banner-social-buttons">
-                    <li><a href="http://www.etsy.com/shop/gembat" class="btn btn-default btn-lg"><span class="network-name">Etsy Shop</span></a>
-                    </li>
-                </ul> -->
-            </div>
-        </div>
-    </section>
-
-
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p>Please email me for design jobs, commissions, questions, comments, or just to chat!</p>
-                <p><a href="mailto:sara@themcsorleys.com">sara@themcsorleys.com</a></p>
-                <ul class="list-inline banner-social-buttons">
-                    <li><a href="https://twitter.com/SaraMcSorley" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li><a href="http://saramcsorley.tumblr.com" class="btn btn-default btn-lg"><i class="fa fa-tumblr fa-fw"></i> <span class="network-name">Tumblr</span></a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/in/saramcsorley" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <div id="end"></div>
-
-        <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>"It's Our Right" - Event Branding</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/roevwade.png" class="img-responsive img-centered" alt="">
-                            <p>For this project, I created branding for a Roe v. Wade anniversary event put on by Planned Parenthood. I created a logo, social media graphics, printed flyers, a program, event signage and posters, and even created buttons that mirrored old school feminist designs.</p>
-                            <img src="img/portfolio/roevwade2.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/roevwade3.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/roevwade4.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/roevwade5.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Planned Parenthood Social Media Graphics</h2>
-                            <hr class="star-primary">
-                            <p>These are various social media graphics created for standalone social media posts during my time at Planned Parenthood.</p>
-                            <img src="img/portfolio/social2.png" class="img-responsive img-centered" alt="">
+    <!-- /#navbar -->
 
-                            <img src="img/portfolio/social1.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social3.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social4.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social5.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social6.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social7.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social8.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social9.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social10.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social11.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social12.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social13.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social14.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social15.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social16.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social17.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social18.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social19.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/social20.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+    <!-- *** NAVBAR END *** -->
+
+
+    <div id="all">
+
+
+        <!-- *** INTRO IMAGE ***
+_________________________________________________________ -->
+        <div id="intro" class="clearfix">
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="carousel-caption">
+                            <!--<div data-animate="fadeInDown" class="logo">
+                                <img src="img/logo-big.png" alt="logo" width="130">
+                            </div>-->
+                            <h1 data-animate="fadeInDown">Hi, my name is Sara.</h1>
+                            <h2 data-animate="slideInUp">I design, draw, and animate.</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+
+        <!-- *** INTRO IMAGE END *** -->
+
+        <!-- *** ABOUT ***
+_________________________________________________________ -->
+        <div class="section" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Title X Infographics</h2>
-                            <hr class="star-primary">
-                            <p>These infographics were created for a social media campaign to educate the public on the benefits of Title X while it was under threat from Congress in the summer of 2015. The first graphic focused on the history of Title X, the second on its relevance to PPGNHI's audience, and the third showed its national significance. This graphic was also used by the national Planned Parenthood social media accounts.</p>
-                            <img src="img/portfolio/info1.png" class="img-responsive img-centered" alt="">
-                            
-                            <img src="img/portfolio/info2.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/info3.png" class="img-responsive img-centered" alt="">
-                           
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                    <div class="col-sm-12">
+                        <h2 class="title" data-animate="fadeInDown">About me</h2>
+                    </div>
+
+                    <div class="col-sm-12">
+
+                        <div class="row">
+
+                            <div class="col-sm-6 text-left" data-animate="fadeInUp">
+
+                                <p><strong>I like to make things.</strong> Pretty things, functional things, things that make people say "wow!" and things that make people want to click to see more. I'm a graphic designer by trade, and I also dabble in illustration and product design. I have a bizarre love of spreadsheets and project management.</p>
+
+                                <p>I'm an ideas girl; <strong>if you have an inkling, I have an interesting and innovative solution to throw at you.</strong> I might have five. Only way to find out is to contact me and let me know what you're thinking! I take on commission and contract work whenever there's a project that piques my interest. If you've got something cool, drop me a line and maybe we'll make something beautiful together.</p>
+
+                                <p>When I'm not sitting behind a computer I'm either out for a hike, watching some whales, or planning my next trip to Ireland. I can sometimes be found tabling at a vendor fair or convention near you. If you want to see my illustration work, <a href="http://saramcsorley.tumblr.com">you can do that here</a>.
+
+                            </div>
+
+                            <div class="col-sm-6" data-animate="fadeInUp">
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        Photoshop/Illustrator/InDesign
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill5" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                                            <span class="sr-only">60</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        After Effects
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill4" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">70</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        HTML/CSS
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">80</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        Social Media Marketing
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                            <span class="sr-only">90</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        Data Analytics
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill1" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                            <span class="sr-only">70</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
                         </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 mt-big" data-animate="bounceIn">
+                        <img src="img/about.png" class="image img-responsive" alt="This is my face!">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+        <!-- /#about -->
+
+        <!-- *** ABOUT END *** -->
+
+                <!-- *** PORTFOLIO IMAGE ***
+_________________________________________________________ -->
+        <div class="section" id="mywork">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>PPGNHI 2015 Holiday Card</h2>
-                            <hr class="star-primary">
-                            <p>I created Planned Parenthood of the Great Northwest and Hawaiian Islands' 2015 holiday card for donors. The trees are the state trees of Alaska, Idaho, Washington, and Hawaii--a way to tie together the four far-flung states. I created the illustrations for each tree and laid out the card and custom envelopes.</p>
-                            <img src="img/portfolio/holiday.png" class="img-responsive img-centered" alt="">
-                            
-                            <img src="img/portfolio/holiday2.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/holiday3.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                <div class="col-sm-12">
+
+                    <div class="mb20">
+                        <h2 class="title" data-animate="fadeInUp">My work</h2>
+
+                        <p class="lead" data-animate="fadeInUp">Here is a small selection of some cool stuff I've worked on. If you'd like to see more, you can visit me <a href="http://www.behance.net/SARAMCSORLEY">at Behance.</a></p>
+                    </div>
+
+                   <!-- <ul id="filter" data-animate="fadeInUp">
+                        <li class="active"><a href="#" data-filter="all">All</a>
+                        </li>
+                        <li><a href="#" data-filter="webdesign">Webdesign</a>
+                        </li>
+                        <li><a href="#" data-filter="seo">SEO</a>
+                        </li>
+                        <li><a href="#" data-filter="marketing">Marketing</a>
+                        </li>
+                        <li><a href="#" data-filter="other">Other</a>
+                        </li>
+                    </ul> -->
+
+                    <div id="detail">
+
+                        <span class="close">&times;</span> 
+
+                        <div id="detail-slider"></div>
+
+                        <div class="text-center">
+                            <h1 id="detail-title">&nbsp;</h1>
                         </div>
+
+                        <div id="detail-content"></div>
+
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Lunette Campaign</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/lunette1.png" class="img-responsive img-centered" alt="">
-                            <p>I created a landing page and social media ad campaign for a discount code PPGNHI offers for Lunette menstrual cups. I created a series of infographics to higlight the environmental and cost-saving benefits of using a menstrual cup to appeal to our target market. The infographic ads were used on Twitter and Tumblr, while the blue pattern ad was used on Facebook.</p>
-                            <img src="img/portfolio/lunette3.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/lunette4.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/lunette5.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/lunette6.png" class="img-responsive img-centered" alt="">
-                            
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    <!-- Reference detail -->
+
+                    <div id="references-masonry" data-animate="fadeInUp">
+
+                        <div class="reference-item" data-category="webdesign">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/portfolio-1.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">PATH Spring Appeal 2017</h3> 
+                                        <p>Fundraising campaign to fight women's cancers.</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/portfolio/spring-appeal-1.png,img/portfolio/spring-appeal-2.png">
+
+                                    <p>This fundraising appeal was meant to tell the story of PATH's life-saving work in cervical and breast cancer prevention. I chose to go with a bright color palette, and pictures of young, vibrant women whose lives were impacted by this important work. I coded and tested a responsive email template for this campaign, and created a series of emails and social media ads & headers that would run throughout the course of the campaign.</p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://www.behance.net/SARAMCSORLEY">See more <i class="fa fa-angle-double-right"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>#StandwithPP</h2>
-                            <hr class="star-primary">
-                            <p>In Summer 2015, Planned Parenthood was under attack. As part of a nationwide campaign of support, I created brand-compliant materials for Facebook, Twitter, Tumblr, and Instagram for the Planned Parenthood affiliate I worked for. Using pictures from protests and Planned Parenthood branding, I created a social campaign that made it easy for our supporters to show support for us online.</p>
-                            <img src="img/portfolio/standwithpp.png" class="img-responsive img-centered" alt="">
-                            
-                            <img src="img/portfolio/standwithpp2.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/standwithpp3.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/standwithpp4.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/standwithpp5.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/standwithpp6.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        <div class="reference-item" data-category="seo">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/portfolio-2.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Space Merch!</h3> 
+                                        <p>A space-based product line.</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/portfolio/space-line-1.png,img/portfolio/space-line-2.png,img/portfolio/space-line-3.png">
+
+                                    <p>I've been tabling at vendor fairs in Seattle for nearly 3 years now. For 2017, I wanted to create a line of merchandise centered around space exploration with kind of a 70s vibe in terms of colors and artwork. I created a bandana, set of buttons, magnet, poster, and pencil bag within this line, and early sales data is promising. I'm looking forward to refining these products and creating even more in the coming months.</p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="javascript:void(0);">See more <i class="fa fa-angle-double-right"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Teen Council Rebrand T-Shirts & Swag</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/tc.png" class="img-responsive img-centered" alt="">
-                            <p>Teen Council is Planned Parenthood’s award-winning peer education program. Teen Council empowers teens to educate their peers about healthy sexuality and relationship issues. After their logo redesign, they needed new t-shirts and sweatshirts to wear while working as sex educators. The shirts needed to be professional, but also cool enough for high school aged-students to wear and look up to.
+
+                        <div class="reference-item" data-category="marketing">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/portfolio-3.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">PATH Journeys</h3> 
+                                        <p>Travel Brochures showcasing PATH's amazing photography.</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/portfolio/journeys-1.png,img/portfolio/journeys-2.png">
+
+                                    <p>I had the opportunity to use some of PATH's incredible wealth of photography assets to build a few travel brochures for their Journeys program. The South Africa iteration is co-branded with The Tech Museum so it looks a little different than the Vietnam version.</p>
+
+                                    <p>These brochures were meant to be viewed and distributed online only, so I was able to play around with the format and do some really beautiful things to let the photos shine. I also created the patterns, textures, and illustrations used.</p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://www.behance.net/SARAMCSORLEY">See more <i class="fa fa-angle-double-right"></i></a>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="marketing">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/portfolio-4.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Game of Thrones Tattoos</h3> 
+                                        
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/portfolio/got-1.png,img/portfolio/got-2.png,img/portfolio/got-3.png.jpg">
+
+                                    <p>My reimagining of the Game of Thrones house symbols in the style of traditional American tattoos. This was a fun one to research. I had these produced as temporary tattoos for a convention a few years ago. Good times.</p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://www.behance.net/gallery/16835739/Tattoo-Game-of-Thrones-Sigils">See more <i class="fa fa-angle-double-right"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="webdesign">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/portfolio-5.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Event Branding & Collateral</h3> 
+                                        <p>Branding an event for Planned Parenthood.</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/portfolio/our-right-1.png,img/portfolio/our-right-2.png,img/portfolio/our-right-3.png">
+
+                                    <p>I created branding for a Roe v. Wade anniversary event put on by Planned Parenthood in 2016. I created a logo, social media graphics, printed flyers, a program, event signage and posters, and even created buttons that mirrored old school feminist designs.</p>
+
+                                    <p>Putting together collateral for an event of this size was an incredible experience. I had a lot of fun playing within Planned Parenthood's brand guidelines, while still finding a way to give this event its own look and feel.</p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://www.behance.net/gallery/33603317/Its-OUR-Right-Event-Branding">See more <i class="fa fa-angle-double-right"></i></a>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="other">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/portfolio-6.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Social Media Graphics</h3> 
+                                        <p>A sampling of my social media material for PP.</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/portfolio/pp-social-3.png,img/portfolio/pp-social-2.png,img/portfolio/pp-social-1.png,img/portfolio/pp-social-4.png,img/portfolio/pp-social-5.png">
+
+                                    <p>This is a selection of some of the social media graphics created for standalone social media posts during my time at Planned Parenthood. Some were made in a few minutes, others took a few hours. I created and maintained a large library of assets that I could re-use in a pinch. It can be fun to work on a project for weeks at a time, but sometimes there's no substitute for the immediacy of social graphics.</p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://www.behance.net/gallery/33601817/Social-Media-Graphics">See more <i class="fa fa-angle-double-right"></i></a>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="seo">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/portfolio-7.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Teen Council Rebrand</h3> 
+                                        <p>T-Shirts & Swag.</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/portfolio/teen-council-2.png,img/portfolio/teen-council-1.png,img/portfolio/teen-council-3.png">
+
+                                    <p>Teen Council is Planned Parenthood’s award-winning peer education program. Teen Council empowers teens to educate their peers about healthy sexuality and relationship issues. After their logo redesign, they needed new t-shirts and sweatshirts to wear while working as sex educators. The shirts needed to be professional, but also cool enough for high school aged-students to wear and look up to.
  
                             <p>The shirts and stickers were intended to promote the new logo, and create buy-in among the teen council members.</p>
                             <p>Ultimately, we decided to go with a single color t-shirt design, and let the teen council members choose one of the 3 colors in the logo, or charcoal as their shirt color. When they're all together, the colors in the logo are visible and cohesive, but without the price tag of the four color shirts.</p>
-                            <img src="img/portfolio/tc2.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/tc3.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/tc4.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/tc5.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>FCSO Projects</h2>
-                            <hr class="star-primary">
-                            <p>Here are some examples of projects I worked on while at the Fayette County Sheriff's Office. There are some examples of Annual Report covers, a letterhead redesign, an infographic, and a few direct mail fliers.</p>
-                            <img src="img/portfolio/fcso1.png" class="img-responsive img-centered" alt="">
-                            
-                            <img src="img/portfolio/fcso2.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/fcso3.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/fcso4.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/fcso5.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/fcso6.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Amanda's Center Branding</h2>
-                            <hr class="star-primary">
-                            <p>In October 2012, I oversaw the creation of the brand identity of the FCSO's new intake center for victims of domestic violence. The centerpiece of this was a journal based on the poetry and journals of Amanda Ross, the woman the center was named after.</p>
-                            <img src="img/portfolio/aclr2.png" class="img-responsive img-centered" alt="">
-                            
-                            <img src="img/portfolio/aclr3.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/aclr4.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/aclr5.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/aclr6.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/aclr7.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/aclr8.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-       <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Firebase T-Shirts</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/firebase.png" class="img-responsive img-centered" alt="">
-                            <p>Design for BioWare. Sold on Shirtpunch.</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-           <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Book Covers</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/books1.png" class="img-responsive img-centered" alt="">
-                            <p>Book cover designs for different authors. I did all illustration, design work, and type-setting.</p>
-                            <img src="img/portfolio/books2.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-           <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Traditional Tattoo Illustrations</h2>
-                            <hr class="star-primary">
-                            <p>This project was an illustrated reimagining of the Game of Thrones house symbols as traditional American style tattoos.</p>
-                            <img src="img/portfolio/tats1.png" class="img-responsive img-centered" alt="">
-                            
-                            <img src="img/portfolio/tats2.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/tats3.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/tats4.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/tats5.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Core JavaScript Files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://www.behance.net/gallery/33598029/Teen-Council-Branded-Clothing-Stickers">See more <i class="fa fa-angle-double-right"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+                        <div class="reference-item" data-category="webdesign">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/portfolio-8.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Book Covers</h3> 
+                                        <p>For both print and e-books.</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/portfolio/book-covers-2.png,img/portfolio/book-covers-3.png">
+
+                                   <p>Book cover designs for different authors. I did all illustration and layout work, working closely with the authors and their publishers in order to turn out exactly the product they were looking for.</p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://www.behance.net/gallery/16835283/Book-Covers">See more <i class="fa fa-angle-double-right"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /#references-masonry -->
+
+                </div>
+                <!-- /.12 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** PORTFOLIO END *** -->
+
+
+
+        <!-- *** SHOWCASE ***
+_________________________________________________________ -->
+        <div class="section text-parallax parallax-image1" id="skills">
+<!-- 
+            <div class="container">
+                <div class="row showcase">
+                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                        <div class="item">
+                            <div class="icon"><i class="fa fa-align-justify"></i>
+                            </div>
+                            <h4><span class="counter">120</span><br>
+
+			Websites</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                        <div class="item">
+                            <div class="icon"><i class="fa fa-users"></i>
+                            </div>
+                            <h4><span class="counter">50</span><br>  
+
+			Satisfied Clients</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                        <div class="item">
+                            <div class="icon"><i class="fa fa-copy"></i>
+                            </div>
+                            <h4><span class="counter">320</span><br>
+
+			Projects</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                        <div class="item">
+                            <div class="icon"><i class="fa fa-font"></i>
+                            </div>
+                            <h4><span class="counter">333</span><br> 
+
+			Magazines and Brochures</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+<!--
+            </div>
+            <!-- /.container -->
+<!--
+            <div class="dark-mask"></div>
+-->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** SKILLS ***
+_________________________________________________________ -->
+        <div class="section" id="skills">
+            <div class="container">
+                <div class="col-md-12">
+                    <h2 class="title" data-animate="fadeInDown">My Skills</h2>
+
+                    <div class="row services">
+
+                        <div class="col-md-4" data-animate="fadeInUp">
+                            <div class="icon"><i class="fa fa-laptop"></i>
+                            </div>
+                            <h3 class="heading">Graphic Design</h3>
+                            <p>I've been a designer professionally for 5+ years, and I know how to handle any trick the Adobe Creative Suite can throw at me. I can edit video, make gifs (team soft "g"), and generally put a computer through its paces to get it to put what's in my brain on a screen.</p>
+                        </div>
+
+                        <div class="col-md-4" data-animate="fadeInUp">
+                            <div class="icon"><i class="fa fa-edit"></i>
+                            </div>
+                            <h3 class="heading">Illustration</h3>
+                            <p>I've been drawing just about as long as my hands could hold a pencil. I've done book covers, comics, t-shirts, 2D sprites for video game art, poster series', you name it. Right now I'm using it to start my space-related product line. Watch this space. Also watch <a href="https://images.nasa.gov/#/">space</a>, space is incredibly cool.</p>
+                        </div>
+
+                        <div class="col-md-4" data-animate="fadeInUp">
+                            <div class="icon"><i class="fa fa-star"></i> 
+                            </div>
+                            <h3 class="heading">Anything You Need</h3>
+                            <p>I'm at home when building emails, drafting marketing plans, analyzing data, and building pretty, pretty spreadsheets. I make gantt charts for fun. My time on small teams has made me agile, able to pick up ancillary skills when needed.</p>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="text-center">
+
+                        <p class="lead">Wanna talk? Drop me a line and let's make something together.</p>
+
+                        <p><a href="mailto:sara@themcsorleys.com" class="btn btn-default btn-lg scrollTo">Contact me</a>
+                        </p>
+
+                    </div>
+
+                </div>
+                <!-- /.12 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** SKILLS END *** -->
+
+
+
+
+        <!-- *** FOOTER ***
+_________________________________________________________ -->
+
+        <div class="section" id="footer">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+
+                        <p class="social">
+                            <a href="http://saramcsorley.tumblr.com" class="external tumblr" data-animate-hover="bounce" data-animate="fadeInUp"><i class="fa fa-tumblr"></i></a>
+                            <a href="http://www.twitter.com/saramcsorley" class="external twitter" data-animate-hover="bounce" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
+                            <a href="http://www.instagram.com/centauride" class="external instagram" data-animate-hover="bounce" data-animate="fadeInUp"><i class="fa fa-instagram"></i></a>
+                            <a href="mailto:sara@themcsorleys.com" class="email" data-animate-hover="bounce" data-animate="fadeInUp"><i class="fa fa-envelope"></i></a>
+                        </p>
+                    </div>
+                    <!-- /.6 -->
+
+                    <div class="col-sm-6">
+                        <p>&copy; 2017 Sara McSorley. All rights reserved.</p>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <p class="template-bootstrapious">Template by <a href="https://www.bootstrapious.com/">Bootstrapious</a>. Photos from <a href="http://www.nasa.gov/">NASA.</a></p>
+                        
+                        <!-- Please do not remove the backlink to us, unless you support the development at https://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)        -->
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** FOOTER END *** -->
+
+
+
+    </div>
+    <!-- /#all -->
+
+    <!-- #### JAVASCRIPT FILES ### -->
+
+    <!-- js base -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- for demo purpose -->
+    <script src="js/jquery.cookie.js"></script>
+
+    <!-- waypoints for scroll spy -->
+    <script src="js/waypoints.min.js"></script>
+
+    <!-- maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="js/gmaps.js"></script>
+
+    <!-- masonry layout -->
+    <script src="js/masonry.pkgd.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+
+    <!-- jQuery scroll to -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+
+    <!-- jQuery counter -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- jQuery parallax -->
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+
+    <!-- main js file -->
+
+    <script src="js/front.js"></script>
+
+    
+
+
 
 </body>
 
